@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-baby-blue: #cfe8fa;
+  --color-lavender: #dfd5fa;
+  --color-blush: #fadce8;
+  --color-cloud: #fcfdfe;
+  --color-champagne: #e6c98f;
+  --color-ink: #1b2138;
+  --color-ink-muted: #4c5574;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: #1b2138;
+    background-color: #f6fafe;
+    scroll-behavior: smooth;
+  }
+
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+}
+
+/* Subtle ticket perforation cutouts for the boarding pass */
+.ticket-notch-top {
+  background: radial-gradient(circle at 50% 0, #f4f1fc 14px, transparent 14.5px);
+}
+.ticket-notch-bottom {
+  background: radial-gradient(circle at 50% 100%, #f4f1fc 14px, transparent 14.5px);
+}
+
+/* Reduced motion & fallback sky animations */
+@keyframes gentle-drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(16px, -10px, 0);
+  }
+}
+
+.cloud-drift {
+  animation: gentle-drift 14s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .cloud-drift {
+    animation: none;
+  }
+}

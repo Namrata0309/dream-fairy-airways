@@ -1,0 +1,6 @@
+{
+  "name": "Dream Fairy Airways",
+  "description": "A magical 3D aviation birthday adventure crafted for Sharavani — Departure 06 December 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
