@@ -14,7 +14,7 @@ export interface CockpitMetricConfig {
 
 export const DREAM_FAIRY_CONFIG = {
   airlineName: 'DREAM FAIRY AIRWAYS',
-  recipientName: 'Sharavani',
+  recipientName: 'Shravani',
   recipientNickname: 'Dream Fairy',
   senderSignature: 'Yours Dreamfairy',
   birthdayDate: '06 December 2026',
@@ -46,7 +46,7 @@ export const DREAM_FAIRY_CONFIG = {
     routeDestination: 'DREAMS',
     routeDestinationCity: 'Universe of Dreams',
     fields: {
-      passenger: 'SHARAVANI',
+      passenger: 'SHRAVANI',
       flight: 'DF-0612',
       destination: 'A UNIVERSE OF DREAMS',
       departure: '06 DECEMBER 2026',
@@ -66,7 +66,7 @@ export const DREAM_FAIRY_CONFIG = {
       'Some connections are just different. And ours is one of my favourites.',
     ],
     starLabels: {
-      left: 'Sharavani',
+      left: 'Shravani',
       right: 'Yours Dreamfairy',
     },
   },
@@ -138,7 +138,7 @@ export const DREAM_FAIRY_CONFIG = {
   letter: {
     sectionTitle: 'A Letter From Your Dream Fairy',
     promptHint: 'Click the glass envelope to open your birthday letter',
-    salutation: 'Dear Sharavani,',
+    salutation: 'Dear Shravani,',
     paragraphs: [
       'Happiest Birthday to my Dream Fairy! 💗',
       "It's honestly funny how we haven't even met in person, yet you've become someone so special to me.",
@@ -155,7 +155,7 @@ export const DREAM_FAIRY_CONFIG = {
   },
 
   finale: {
-    heading: 'HAPPY BIRTHDAY, SHARAVANI!',
+    heading: 'HAPPY BIRTHDAY, SHRAVANI!',
     subtitle: 'To the girl who was born to touch the skies.',
     paragraphs: [
       'May every flight take you closer to your dreams, every sunrise bring you happiness and every year make your world more beautiful.',
